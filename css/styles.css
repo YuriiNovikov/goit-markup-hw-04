@@ -389,7 +389,7 @@ background-color: rgba(255, 255, 255, 0.6);
 
 .regular-cust-link{
     /* background-color: teal; */
-    border: 2px solid var(--main-icon-color);
+    border: 1px solid var(--main-icon-color);
     border-radius: 4px;
     Width: 170px;
     Height: 92px;
@@ -456,6 +456,10 @@ background-color: rgba(255, 255, 255, 0.6);
 
     margin-top: 20px;
 }
+.email{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
 
 .footer-text {
     color: var(--main-accent-color);
@@ -470,7 +474,7 @@ background-color: rgba(255, 255, 255, 0.6);
     color: var(--main-focus-color);
 }
 .footer-soc-container{
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -498,7 +502,7 @@ background-color: rgba(255, 255, 255, 0.6);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--main-text-color);
+    background: rgba(255, 255, 255, 0.1);
     align-items: center;
     justify-content: center;
 }
@@ -512,23 +516,6 @@ background-color: rgba(255, 255, 255, 0.6);
 }
 
 
-
-
-
-
-
-
-/* 
-.team-social-link:hover,
-.team-social-link:focus {
-    background-color: var(--main-focus-color);
-}
-
-.team-social-link:hover .team-social-icon,
-.team-social-link:focus .team-social-icon {
-    fill: var(--main-accent-color);
-} */
-/*  */
 
 
 /* -----------------PORTFOLIO----------------- */
@@ -616,10 +603,3 @@ background-color: rgba(255, 255, 255, 0.6);
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/* 
-
-
-
-
-
-*/
