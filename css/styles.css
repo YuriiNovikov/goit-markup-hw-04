@@ -73,10 +73,6 @@ ul {
     gap: 50px;
 }
 
-/* .header-contact {
-    display: flex;
-    align-items: center;
-} */
 
 .header-link {
     color: var(--main-title-color);
@@ -91,6 +87,9 @@ ul {
 
 .accent-logo {
     color: var(--main-focus-color);
+}
+.header-icon{
+    fill: var(--main-text-color);
 }
 
 .header-cont-link:hover,
@@ -456,16 +455,15 @@ background-color: rgba(255, 255, 255, 0.6);
 
     margin-top: 20px;
 }
-.email{
-    margin-top: 9px;
-    margin-bottom: 9px;
-}
+
 
 .footer-text {
     color: var(--main-accent-color);
 }
 
 .footer-link {
+    display: inline-block;
+    margin-top: 9px;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -475,17 +473,25 @@ background-color: rgba(255, 255, 255, 0.6);
 }
 .footer-soc-container{
     text-align: left;
-    font-weight: 700;
+    /* font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-accent-color);
+    color: var(--main-accent-color); */
     padding-top: 12px;
 }
 
 
 .footer-soc-title{
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-accent-color);
     margin-bottom: 20px;
 }
 
